@@ -32,9 +32,6 @@ class Stack {
         this.top = null;
         this.bottom = null;
         this.length = 0;
-        this.push = this.push.bind(this);
-        this.pop = this.pop.bind(this);
-        this.size = this.size.bind(this);
     }
 
     push(val){

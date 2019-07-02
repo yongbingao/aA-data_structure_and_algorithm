@@ -32,9 +32,6 @@ class Queue {
         this.front = null;
         this.back = null;
         this.length = 0;
-        this.enqueue = this.enqueue.bind(this);
-        this.dequeue = this.dequeue.bind(this);
-        this.size = this.size.bind(this);
     }
 
     enqueue(val){
